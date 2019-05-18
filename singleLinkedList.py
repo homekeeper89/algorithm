@@ -10,7 +10,7 @@ class SingleLinkedList:
         self.head = Node()
         self.tail = self.head
         self.tot_length = 0
-    
+
     def push(self, node):
         if self.tot_length == 0:
             self.head.next = node
