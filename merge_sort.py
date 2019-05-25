@@ -18,7 +18,6 @@ def performMergeSort(lstElementToSort): # sorting하고자 하는 리스트 받�
     lstSubElementToSort2 = performMergeSort(lstSubElementToSort2)
     # 여기까지 Decomposition !!
     
-    
     idxCount1 = 0 # 여기부터 Aggregation !! 
     idxCount2 = 0
     for itr in range(len(lstElementToSort)):

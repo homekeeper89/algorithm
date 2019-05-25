@@ -10,8 +10,6 @@ class SingleLinkedList:
         self.head = Node()
         self.tail = self.head
         self.tot_length = 0
-<<<<<<< HEAD
-=======
     
     def lastNode(self):
         temp_node = self.head
@@ -23,7 +21,6 @@ class SingleLinkedList:
                 last_node = temp_node.next
             temp_node = temp_node.next
         return before_last_node, last_node
->>>>>>> 2393c7c47030e886bd51006c26167cce34cd750c
 
     def push(self, node):
         if self.tot_length == 0:
